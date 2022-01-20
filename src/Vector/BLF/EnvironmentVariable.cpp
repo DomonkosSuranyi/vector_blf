@@ -4,7 +4,7 @@
 
 #include <cstring>
 
-#include <Vector/BLF/EnvironmentVariable.h>
+#include "EnvironmentVariable.h"
 
 namespace Vector {
 namespace BLF {

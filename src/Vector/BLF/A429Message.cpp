@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/A429Message.h>
+#include "A429Message.h"
 
 namespace Vector {
 namespace BLF {

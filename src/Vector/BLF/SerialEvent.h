@@ -4,18 +4,18 @@
 
 #pragma once
 
-#include <Vector/BLF/platform.h>
+#include "platform.h"
 
 #include <array>
 #include <vector>
 
-#include <Vector/BLF/AbstractFile.h>
-#include <Vector/BLF/CompactSerialEvent.h>
-#include <Vector/BLF/GeneralSerialEvent.h>
-#include <Vector/BLF/ObjectHeader.h>
-#include <Vector/BLF/SingleByteSerialEvent.h>
+#include "AbstractFile.h"
+#include "CompactSerialEvent.h"
+#include "GeneralSerialEvent.h"
+#include "ObjectHeader.h"
+#include "SingleByteSerialEvent.h"
 
-#include <Vector/BLF/vector_blf_export.h>
+#include "vector_blf_export.h"
 
 namespace Vector {
 namespace BLF {

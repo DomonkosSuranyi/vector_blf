@@ -4,17 +4,17 @@
 
 #pragma once
 
-#include <Vector/BLF/platform.h>
+#include "platform.h"
 
 #include <condition_variable>
 #include <limits>
 #include <mutex>
 #include <queue>
 
-#include <Vector/BLF/ObjectHeaderBase.h>
-#include <Vector/BLF/LogContainer.h>
+#include "ObjectHeaderBase.h"
+#include "LogContainer.h"
 
-#include <Vector/BLF/vector_blf_export.h>
+#include "vector_blf_export.h"
 
 namespace Vector {
 namespace BLF {

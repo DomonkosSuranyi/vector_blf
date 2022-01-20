@@ -4,13 +4,13 @@
 
 #pragma once
 
-#include <Vector/BLF/platform.h>
+#include "platform.h"
 
-#include <Vector/BLF/AbstractFile.h>
-#include <Vector/BLF/AfdxLineStatus.h>
-#include <Vector/BLF/ObjectHeader.h>
+#include "AbstractFile.h"
+#include "AfdxLineStatus.h"
+#include "ObjectHeader.h"
 
-#include <Vector/BLF/vector_blf_export.h>
+#include "vector_blf_export.h"
 
 namespace Vector {
 namespace BLF {

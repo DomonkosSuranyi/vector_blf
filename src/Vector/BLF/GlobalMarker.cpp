@@ -4,7 +4,7 @@
 
 #include <cstring>
 
-#include <Vector/BLF/GlobalMarker.h>
+#include "GlobalMarker.h"
 
 namespace Vector {
 namespace BLF {

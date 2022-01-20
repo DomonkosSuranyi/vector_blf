@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/CanFdErrorFrame64.h>
+#include "CanFdErrorFrame64.h"
 
 namespace Vector {
 namespace BLF {

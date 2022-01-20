@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/UncompressedFile.h>
+#include "UncompressedFile.h"
 
 #undef DEBUG_WRITE_LOG_CONTAINERS_TO_DISK
 
@@ -12,7 +12,7 @@
 #include <fstream>
 #endif
 
-#include <Vector/BLF/Exceptions.h>
+#include "Exceptions.h"
 
 namespace Vector {
 namespace BLF {

@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/AfdxStatistic.h>
+#include "AfdxStatistic.h"
 
 namespace Vector {
 namespace BLF {

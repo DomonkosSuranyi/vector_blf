@@ -8,7 +8,7 @@
 
 #pragma once
 
-#include <Vector/BLF/config.h>
+#include "config.h"
 
 /* GCC */
 #ifdef __GNUC__

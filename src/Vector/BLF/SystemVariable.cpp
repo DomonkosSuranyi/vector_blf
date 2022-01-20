@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/SystemVariable.h>
+#include "SystemVariable.h"
 
 namespace Vector {
 namespace BLF {

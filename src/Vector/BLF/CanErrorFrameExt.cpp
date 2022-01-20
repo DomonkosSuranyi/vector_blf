@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/CanErrorFrameExt.h>
+#include "CanErrorFrameExt.h"
 
 namespace Vector {
 namespace BLF {

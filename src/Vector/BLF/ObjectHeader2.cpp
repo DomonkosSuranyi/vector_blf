@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/ObjectHeader2.h>
+#include "ObjectHeader2.h"
 
 namespace Vector {
 namespace BLF {

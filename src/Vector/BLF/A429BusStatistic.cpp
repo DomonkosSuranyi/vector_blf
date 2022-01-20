@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/A429BusStatistic.h>
+#include "A429BusStatistic.h"
 
 namespace Vector {
 namespace BLF {

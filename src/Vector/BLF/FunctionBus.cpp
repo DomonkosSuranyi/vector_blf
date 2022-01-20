@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/FunctionBus.h>
+#include "FunctionBus.h"
 
 namespace Vector {
 namespace BLF {

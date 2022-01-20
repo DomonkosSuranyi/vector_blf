@@ -2,12 +2,12 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/File.h>
+#include "File.h"
 
 #include <cstring>
 #include <iostream>
 
-#include <Vector/BLF/Exceptions.h>
+#include "Exceptions.h"
 
 namespace Vector {
 namespace BLF {
@@ -229,6 +229,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
         obj = new LogContainer();
         break;
 
+        /*
     case ObjectType::LIN_MESSAGE:
         obj = new LinMessage();
         break;
@@ -353,19 +354,23 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::LIN_SPIKE_EVENT:
         obj = new LinSpikeEvent();
         break;
+        */
 
     case ObjectType::CAN_DRIVER_SYNC:
         obj = new CanDriverHwSync();
         break;
 
+        /*
     case ObjectType::FLEXRAY_STATUS:
         obj = new FlexRayStatusEvent();
         break;
+        */
 
     case ObjectType::GPS_EVENT:
         obj = new GpsEvent();
         break;
 
+        /*
     case ObjectType::FR_ERROR:
         obj = new FlexRayVFrError();
         break;
@@ -381,6 +386,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::FR_RCVMESSAGE:
         obj = new FlexRayVFrReceiveMsg();
         break;
+        */
 
     case ObjectType::REALTIMECLOCK:
         obj = new RealtimeClock();
@@ -390,6 +396,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::Reserved53:
         break;
 
+        /*
     case ObjectType::LIN_STATISTIC:
         obj = new LinStatisticEvent();
         break;
@@ -462,6 +469,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::SYS_VARIABLE:
         obj = new SystemVariable();
         break;
+        */
 
     case ObjectType::CAN_ERROR_EXT:
         obj = new CanErrorFrameExt();
@@ -471,6 +479,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
         obj = new CanDriverErrorExt();
         break;
 
+        /*
     case ObjectType::LIN_LONG_DOM_SIG2:
         obj = new LinLongDomSignalEvent2();
         break;
@@ -514,10 +523,12 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::MOST_50_PKT:
         obj = new Most50Pkt();
         break;
+        */
 
     case ObjectType::CAN_MESSAGE2:
         obj = new CanMessage2();
         break;
+        /*
 
     case ObjectType::LIN_UNEXPECTED_WAKEUP:
         obj = new LinUnexpectedWakeup();
@@ -530,6 +541,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::LIN_DISTURBANCE_EVENT:
         obj = new LinDisturbanceEvent();
         break;
+        */
 
     case ObjectType::SERIAL_EVENT:
         obj = new SerialEvent();
@@ -543,6 +555,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
         obj = new EventComment();
         break;
 
+        /*
     case ObjectType::WLAN_FRAME:
         obj = new WlanFrame();
         break;
@@ -554,11 +567,13 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::MOST_ECL:
         obj = new MostEcl();
         break;
+        */
 
     case ObjectType::GLOBAL_MARKER:
         obj = new GlobalMarker();
         break;
 
+        /*
     case ObjectType::AFDX_FRAME:
         obj = new AfdxFrame();
         break;
@@ -570,6 +585,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::KLINE_STATUSEVENT:
         obj = new KLineStatusEvent();
         break;
+        */
 
     case ObjectType::CAN_FD_MESSAGE:
         obj = new CanFdMessage();
@@ -579,6 +595,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
         obj = new CanFdMessage64();
         break;
 
+        /*
     case ObjectType::ETHERNET_RX_ERROR:
         obj = new EthernetRxError();
         break;
@@ -586,11 +603,12 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::ETHERNET_STATUS:
         obj = new EthernetStatus();
         break;
-
+        */
     case ObjectType::CAN_FD_ERROR_64:
         obj = new CanFdErrorFrame64();
         break;
 
+        /*
     case ObjectType::LIN_SHORT_OR_SLOW_RESPONSE2:
         obj = new LinShortOrSlowResponse2;
         break;
@@ -629,6 +647,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::ETHERNET_STATISTIC:
         obj = new EthernetStatistic;
         break;
+        */
 
     case ObjectType::Unknown115:
         obj = new RestorePointContainer;
@@ -646,6 +665,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
         obj = new DiagRequestInterpretation;
         break;
 
+        /*
     case ObjectType::ETHERNET_FRAME_EX:
         obj = new EthernetFrameEx;
         break;
@@ -661,6 +681,7 @@ ObjectHeaderBase * File::createObject(ObjectType type) {
     case ObjectType::ETHERNET_ERROR_FORWARDED:
         obj = new EthernetErrorForwarded;
         break;
+        */
 
     case ObjectType::FUNCTION_BUS:
         obj = new FunctionBus;

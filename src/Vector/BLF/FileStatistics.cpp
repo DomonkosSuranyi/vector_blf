@@ -2,12 +2,12 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/FileStatistics.h>
+#include "FileStatistics.h"
 
 #include <string>
 
-#include <Vector/BLF/AbstractFile.h>
-#include <Vector/BLF/Exceptions.h>
+#include "AbstractFile.h"
+#include "Exceptions.h"
 
 namespace Vector {
 namespace BLF {

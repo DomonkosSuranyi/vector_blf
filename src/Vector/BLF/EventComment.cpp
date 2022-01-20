@@ -4,7 +4,7 @@
 
 #include <cstring>
 
-#include <Vector/BLF/EventComment.h>
+#include "EventComment.h"
 
 namespace Vector {
 namespace BLF {

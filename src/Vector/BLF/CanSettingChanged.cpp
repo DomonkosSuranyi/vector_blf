@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/CanSettingChanged.h>
+#include "CanSettingChanged.h"
 
 namespace Vector {
 namespace BLF {

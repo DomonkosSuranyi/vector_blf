@@ -2,10 +2,10 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/ObjectQueue.h>
+#include "ObjectQueue.h"
 
-#include <Vector/BLF/Exceptions.h>
-#include <Vector/BLF/LogContainer.h>
+#include "Exceptions.h"
+#include "LogContainer.h"
 
 namespace Vector {
 namespace BLF {

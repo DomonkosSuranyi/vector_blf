@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/LogContainer.h>
+#include "LogContainer.h"
 
 #include <zlib.h>
 
-#include <Vector/BLF/Exceptions.h>
+#include "Exceptions.h"
 
 namespace Vector {
 namespace BLF {

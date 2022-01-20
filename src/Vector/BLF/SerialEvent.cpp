@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/SerialEvent.h>
+#include "SerialEvent.h"
 
 namespace Vector {
 namespace BLF {

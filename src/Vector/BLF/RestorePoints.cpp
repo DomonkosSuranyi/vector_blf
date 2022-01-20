@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-#include <Vector/BLF/RestorePoints.h>
+#include "RestorePoints.h"
 
 #include <algorithm>
 
